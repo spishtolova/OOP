@@ -28,7 +28,6 @@ public:
         this->num = num;
     }
 
-    //increaseNumber метода со којашто ќе се зголеми вредноста на num за дадена целобројна вредност. Доколку збирот е поголем од 100, вредноста на num да се постави на 100 и да се испечати порака "Sum is greater than 100"
     int increaseNumber(int broj) {
         int sum = num + broj; 
         if (sum > 100) {
